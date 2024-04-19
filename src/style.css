@@ -1,0 +1,61 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vh;
+}
+
+.OverWrap-drop-box {
+  border: 1px solid black;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  overflow: scroll;
+}
+
+.OverWrap-drag-option-box {
+  border: 1px solid gray;
+  overflow: scroll;
+  width: 100%;
+  height: 300px;
+}
+
+.OverWrap-drag-option-box-item {
+  width: max-content;
+  margin: 8px;
+  float: left;
+  flex-wrap: wrap;
+  background-color: gray;
+  padding: 6px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.upcomming-div-have-top-12px > * {
+  margin-top: 12px;
+}
+
+.upcomming-div-have-left-12px > * {
+  margin-left: 12px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
