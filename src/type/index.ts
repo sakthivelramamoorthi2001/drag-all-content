@@ -1,4 +1,4 @@
-import { CSSProperties, VueElement } from "vue";
+import { CSSProperties } from "vue";
 import { basicAttributOfElement } from "../default/index";
 
 export type DragComponentT = {

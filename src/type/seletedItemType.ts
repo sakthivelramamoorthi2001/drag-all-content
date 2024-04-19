@@ -1,5 +1,4 @@
 import { CSSProperties } from "vue";
-import { listT } from "./dragOption";
 
 export type stateTypeT = {
   id: string | null;

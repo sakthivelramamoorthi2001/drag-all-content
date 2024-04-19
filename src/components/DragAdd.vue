@@ -19,7 +19,7 @@
 </template>
 
 
-<script>
+<script lang="ts">
 export default {
     props: {
         update: {
@@ -28,7 +28,13 @@ export default {
             required: true,
         }
     },
-    data() {
+    data(): {
+        formstate: {
+            content: string,
+            placeHolder: string,
+            typeOfContent: string
+        }
+    } {
         return {
             formstate: {
                 content: "",

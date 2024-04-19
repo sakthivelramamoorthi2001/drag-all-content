@@ -15,11 +15,11 @@ export const useSelecteditem = defineStore({
   },
   actions: {
     seletedItemClear() {},
-    seletedItemUpdate(e: listT) {
-      // this.content = e.content;
-      // this.id = e.id;
-      // this.style = e.style || null;
-    },
+    // seletedItemUpdate(e: listT) {
+    // this.content = e.content;
+    // this.id = e.id;
+    // this.style = e.style || null;
+    // },
     seletedItemGet() {
       // if (this.id == null || this.content == null) {
       //   return null;
